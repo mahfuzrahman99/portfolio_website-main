@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-banner {
+    background-image: url('/images/shape1.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.middle-banner {
+    background-image: url('/images/shape2.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+.btn-box {
+    margin-top: 10px;
+
+}
+
+.btn-colorful {
+    text-decoration: none;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 7px;
+}
+
+.btn-box {
+    margin-top: 25px;
+}
+
+
+.btn-colorful:hover {
+    box-shadow: 0 4px 8px rgba(232, 26, 26, 0.1);
+}
+
+
+.bottom-banner h1 {
+    font-size: 2rem;
+
+}
+
+.bottom-banner {
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.experience-title {
+    box-shadow: 10px 8px 35px black;
+    border-radius: 15px;
+    /* height: 90%; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+}
+
+.purple-heading1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.experience-title p {
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: rgb(59, 48, 48);
+}
+
+.box {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+
+.contact {
+    /* align-items: center; */
+    margin: 30px;
+    text-align: center;
+    /* display: inline-block;  */
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact i {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contact a,
+.contact h4 {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons {
+    text-align: center;
+    /* background-color: lightcoral; */
+}
+
+.social-icons>a {
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #f8f7f7;
+}
+
+.fa-facebook:hover {
+    color: #9bbde5;
+}
+
+.fa-linkedin:hover {
+    color: #2867B2;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.purple-heading {
+    color: lightsalmon;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.highlight {
+    color: #FF6B6B;
+    font-weight: bold;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
